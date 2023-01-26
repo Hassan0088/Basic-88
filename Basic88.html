@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        
+        }
+        .head{
+            
+            background-color: rgb(0, 0, 0);
+            width: 100%;
+            padding: 15px;
+            margin: 0 auto;
+            
+        }
+        .basic{
+            width: 20%;
+            color: white;
+        }
+        .menu{
+            float: right ;
+            width: 45%;
+            margin-top: -25px;
+            color: white;
+            
+        }
+        .menu a{
+            padding: 14px 16px;
+        }
+        
+.head2{
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.blocks{
+    width: 100%;
+}
+.block{
+    width: 20%;
+    margin: 6%;
+    float: left;
+    background-color: black;
+    height: 200px;
+    margin-top: 3%;
+    color: brown;
+}
+.text{
+
+    width: 20%;
+    margin: 6%;
+    float: left;
+    height: 0px;
+    margin-top: -50px;
+    color: black;
+}
+
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+.part2{
+    margin-top: 10%;
+    float: left;
+    width: 40%;
+    margin: 6%;
+    margin-top: 12%;
+}
+.part3{
+    width: 40%;
+    float: right;
+}
+img{
+    float: right;
+    width: 50%;
+    height: auto;
+    margin: 80px;
+}
+.Grandfooter{
+    width: 100%;
+    
+}
+.footer{
+    color: white;
+    width: 105%;
+    clear: both;
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+    
+
+
+}
+.Link{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 17%;
+    padding: 2%;
+    display: inline-block;
+}
+.Finalfooter{
+    width: 65;
+    margin: 0 auto;
+    padding: 2%;
+    color: white;
+    background-color: grey;
+}
+.copyright{
+    float: left ;
+}
+.logo{
+    float: right;
+}
+
+    </style>
+
+    
+</head>
+
+<body>
+    
+    <div class="head">
+        <header>
+            <div class="basic">
+                <h1>Basic 88</h1>
+            </div>
+            <div class="menu">
+                <a class="active" href="#home">Home</a>
+                <a class="active" href="#news">News</a>
+                <a class="active" href="#contact">Contact</a>
+                <a class="active" href="#about">About</a>
+            </div>
+    
+        </header>
+    </div>
+
+
+
+
+    <main>
+    <div class="head2">
+        <div class="image">
+            <img src="data:image/png;base64,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" alt="No sdfhkl;" style="width: 89%;height: 400px;">
+        </div>
+    </div>
+
+    <div class="blocks">
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+    </div>
+    <div>
+        <div class="text"><h1> Lorem ipsum</h1> dolor sit amet consectetur adipisicing elit. Saepe rem iure voluptatem eius unde similique, deleniti repudiandae reprehenderit sunt ab vero cum officia asperiores neque, dolor corporis reiciendis ducimus? Dicta?<a href="">Read More...</a></div>
+        <div class="text"><h1> Lorem ipsum</h1> dolor sit, amet consectetur adipisicing elit. Sapiente consectetur omnis odio neque quaerat autem in. Aut, sapiente ipsam vero fugiat dicta quae, optio fuga, iusto assumenda repudiandae esse incidunt!<a href="">Read More...</a></div>
+        <div class="text"><h1> Lorem ipsum</h1> dolor sit amet, consectetur adipisicing elit. Commodi cum, non sapiente error quod distinctio laudantium excepturi magni ut asperiores dolorem. Veritnderit optio accusamus animi.<a href="">Read More...</a></div><br><br><br><br><br><br><br>
+    </div>
+
+    <div class="container">
+        <div class="part2">
+        <h1 style="font-family: 'Times New Roman', Times, serif;">Indonectetus facilis leo nibh</h1>
+        This is a W3C compliant free website template from OS Templates. For full terms of use of this template please read our website template licence.
+        You can use and modify the template for both personal and commercial use. You must keep all copyright information and credit links in the template and associated files. For more HTML5 templates visit free website templates.
+        <a href="">Read More...</a>
+        </div>
+    </div>
+
+    <div class="part3">
+        <img src="https://files.ekmcdn.com/bbed27/images/2021-22-lazio-t.basic-88-third-shirt-official-player-issue-size-name-number-set-6404-1-p.jpg?v=1EA51ACF-487B-448D-84CC-6A22B3F7305D" alt="No Image" style="width: 90%; height: 300px;">
+
+    </div>
+</main>
+
+<div class="Grandfooter">
+    
+    <div class="footer">  
+        <div class="Link">
+            <h2 >Link Block</h2>
+            <ul>
+            <li><a href="#">List1</a></li>
+            <li><a href="#">List2</a></li>
+            <li><a href="#">List3</a></li>
+            <li><a href="#">List4</a></li>
+        </ul>
+         </div>
+         <div class="Link">
+            <h2 >Link Block</h2>
+            <ul>
+            <li><a href="#">List1</a></li>
+            <li><a href="#">List2</a></li>
+            <li><a href="#">List3</a></li>
+            <li><a href="#">List4</a></li>
+        </ul>
+         </div>
+         <div class="Link">
+            <h2 >Link Block</h2>
+            <ul>
+            <li><a href="#">List1</a></li>
+            <li><a href="#">List2</a></li>
+            <li><a href="#">List3</a></li>
+            <li><a href="#">List4</a></li>
+        </ul>
+         </div>
+         <div class="Link">
+            <h2 >Link Block</h2>
+            <ul>
+            <li><a href="#">List1</a></li>
+            <li><a href="#">List2</a></li>
+            <li><a href="#">List3</a></li>
+            <li><a href="#">List4</a></li>
+        </ul>
+         </div>
+       
+    </div>
+</div>
+
+<div class="Finalfooter">
+    <div class="copyright">
+        <p>Lorem ipsum door.</p>
+    </div>
+    <div class="logo">
+        <p>logo is here</p>
+    </div>
+</div>
+    
+</body>
+</html>
